@@ -63,7 +63,7 @@ group :development do
   gem 'capistrano-rvm'
   gem 'capistrano-bundler', '~> 2.0'
   gem "capistrano-rails", "~> 1.6", require: false
-  gem "net-ssh", "~> 4.1.0"
+  gem "net-ssh"
 end
 
 group :test do
