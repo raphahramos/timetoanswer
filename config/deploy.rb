@@ -40,5 +40,5 @@ set :keep_releases, 5
 # Uncomment the following to require manually verifying the host key before first deploy.
 set :ssh_options, {
   user: "deploy",      
-  keys: ["~/.ssh/id_rsa"]      
+  keys: ["~/.ssh/id_rsa.pub"]      
 } 
