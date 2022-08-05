@@ -36,8 +36,3 @@ append :linked_dirs, "storage", "log", "tmp/pids", "tmp/cache", "tmp/sockets", "
 
 # Default value for keep_releases is 5
 set :keep_releases, 5
-
-# Uncomment the following to require manually verifying the host key before first deploy.
-set :ssh_options, { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa) }
-
-set :rvm_map_bins, %w{gem rake ruby rails bundle}
